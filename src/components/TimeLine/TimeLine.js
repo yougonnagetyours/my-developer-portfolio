@@ -12,7 +12,7 @@ const Timeline = () => {
 
   const scroll = (node, left) => {
     return node.scrollTo({ left, behavior: 'smooth' });
-  }
+  } 
 
   const handleClick = (e, i) => {
     e.preventDefault();
