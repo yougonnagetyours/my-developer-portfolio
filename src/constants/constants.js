@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     title: 'Photo Portfolio',
-    description:`Created with React.js, Tailwind to styling with Mobile First Approach and some HeadlessUI to 
+    description:`Created with React.js, Tailwindto styling with Mobile First Approach and some HeadlessUI to 
                  create header menu, menu button etc. This site is Single Page Application. Controlled by Git with remote 
                  repository on GitHub.`,
     image: '/images/2.png',
