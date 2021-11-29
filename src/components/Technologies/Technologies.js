@@ -13,28 +13,40 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
-        <ListTitle>Front-End</ListTitle>
-        <ListParagraph>
-          Experience with <br />
-          ReacjJS
-        </ListParagraph>
+        <picture>
+          <DiReact size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            ReacjJS
+          </ListParagraph>
+        </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
-        <ListTitle>Back-End</ListTitle>
-        <ListParagraph>
-          Experience with <br />
-          Node.js
-        </ListParagraph>
+        <picture>
+          <DiFirebase size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Node.js
+          </ListParagraph>
+        </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
-        <ListTitle>UI/UX</ListTitle>
-        <ListParagraph>
-          Experience with <br />
-          tools like figma
-        </ListParagraph>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            tools like figma
+          </ListParagraph>
+        </ListContainer>
       </ListItem>
     </List>
   </Section>
