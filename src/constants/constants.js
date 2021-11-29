@@ -7,16 +7,18 @@ export const projects = [
                   shop, manage cart, control orders etc. For this shop is also implemented Stripe - for card 
                   transactions. All the data is saved in the remote repisitory on GitHub`,
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+      tags: ['React', 'JavaScript', 'Tailwind', 'Mobile first', 'API', 'Stripe', 'Commerce.js',],
     source: 'https://github.com/yougonnagetyours/kangur-makes-candles',
     visit: 'https://kangur-makes-candles.netlify.app/',
     id: 0,
   },
   {
     title: 'Photo Portfolio',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description:`Created with React.js, Tailwind to styling and some HeadlessUI to header menu, button etc. 
+                 This site is Single Page Application with Mobile First Approach. Controlled by Git with remote 
+                 repository on GitHub.`,
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    tags: ['React', 'JavaScript', 'Tailwind', 'Mobile first', 'Git', 'GitHub'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
