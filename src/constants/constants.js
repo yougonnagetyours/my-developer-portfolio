@@ -1,15 +1,19 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'E-commerce shop',
+    description: `This project was bootstrapped with Create React App and created with Mobile First Approach.
+                  Main technology is React.js, styling is done with Tailwind CSS and React Router 
+                  is used to route pages. The shop is joined to Commerce.js via API to add products to the
+                  shop, manage cart, control orders etc. For this shop is also implemented Stripe - for card 
+                  transactions. All the data is saved in the remote repisitory on GitHub`,
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/yougonnagetyours/kangur-makes-candles',
+    visit: 'https://kangur-makes-candles.netlify.app/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
+    title: 'Photo Portfolio',
     description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
@@ -25,15 +29,6 @@ export const projects = [
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
   },
 ];
 
