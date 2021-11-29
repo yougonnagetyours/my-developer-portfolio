@@ -1,11 +1,9 @@
 export const projects = [
   {
     title: 'E-commerce shop',
-    description: `This project was bootstrapped with Create React App and created with Mobile First Approach.
-                  Main technology is React.js, styling is done with Tailwind CSS and React Router 
-                  is used to route pages. The shop is joined to Commerce.js via API to add products to the
-                  shop, manage cart, control orders etc. For this shop is also implemented Stripe - for card 
-                  transactions. All the data is saved in the remote repisitory on GitHub`,
+    description: `This project is made with Create React App. Main technology is React.js, styling via Tailwind 
+                  CSS. The shop is joined to Commerce.js via API to add products to the shop, manage cart, control orders 
+                  etc. For this shop is also implemented Stripe for card transactions.`,
       image: '/images/1.png',
       tags: ['React', 'JavaScript', 'Tailwind', 'Mobile first', 'API', 'Stripe', 'Commerce.js',],
     source: 'https://github.com/yougonnagetyours/kangur-makes-candles',
@@ -14,8 +12,8 @@ export const projects = [
   },
   {
     title: 'Photo Portfolio',
-    description:`Created with React.js, Tailwind to styling and some HeadlessUI to header menu, button etc. 
-                 This site is Single Page Application with Mobile First Approach. Controlled by Git with remote 
+    description:`Created with React.js, Tailwind to styling with Mobile First Approach and some HeadlessUI to 
+                 create header menu, menu button etc. This site is Single Page Application. Controlled by Git with remote 
                  repository on GitHub.`,
     image: '/images/2.png',
     tags: ['React', 'JavaScript', 'Tailwind', 'Mobile first', 'Git', 'GitHub'],
