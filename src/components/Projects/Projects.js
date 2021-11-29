@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding>
+  <Section id="projects" nopadding>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
