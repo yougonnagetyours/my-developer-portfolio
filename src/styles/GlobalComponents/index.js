@@ -178,7 +178,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)' : 'linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(to right, #16A085 0%, #F4D03F  100%)' : 'linear-gradient(to right, #16A085 0%, #F4D03F  100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -210,7 +210,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)' : 'linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(to right, #16A085 0%, #F4D03F  100%)' : 'linear-gradient(to right, #16A085 0%, #F4D03F  100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
