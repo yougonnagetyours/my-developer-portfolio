@@ -47,6 +47,7 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+    margin-bottom: 20px;
   }
 `;
 
