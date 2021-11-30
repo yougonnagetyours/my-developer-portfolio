@@ -165,7 +165,7 @@ export const SecondaryBtn = styled.button`
     line-height: 16px;
   }
 `
-//linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+// 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
 
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
@@ -199,7 +199,7 @@ export const ButtonBack = styled.div`
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
   }
 `
-
+// 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
@@ -210,7 +210,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)' : 'linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
