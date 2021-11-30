@@ -165,6 +165,7 @@ export const SecondaryBtn = styled.button`
     line-height: 16px;
   }
 `
+//linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
 
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
@@ -177,7 +178,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)' : 'linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
