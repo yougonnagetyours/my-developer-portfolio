@@ -5,7 +5,7 @@ import { Img } from '../Projects/ProjectsStyles';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-import { heroImage } from '../../constants/constants';
+import { images } from '../../constants/constants';
 
 const Hero = () => (
   <Section row nopadding>
@@ -19,7 +19,7 @@ const Hero = () => (
       </SectionText>
       <Button onClick={() => window.location = "https://google.com"}>Learn more</Button>
       <div style={{marginBottom: '20px'}}>
-        <Img src={heroImage} />
+        <Img src={images.heroImage} />
       </div>
     </LeftSection>
   </Section>
