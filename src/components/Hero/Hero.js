@@ -5,7 +5,7 @@ import { Img } from '../Projects/ProjectsStyles';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-import heroPic from '/images/hero-1.jpg'
+import heroPic from '../../../public/images/hero-1.jpg';
 
 const Hero = () => (
   <Section row nopadding>
