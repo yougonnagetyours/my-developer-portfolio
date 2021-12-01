@@ -40,6 +40,6 @@ export const TimeLineData = [
   { year: 2021, text: 'Started my own platform', },
 ];
 
-export const heroImage = [
-  {image: '/images/hero-1.jpg'}
-]
+
+export const heroImage = '/images/hero-2.jpg'
+ 
