@@ -10,7 +10,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+        All the Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
       </SectionText>
     </Section>
   );
