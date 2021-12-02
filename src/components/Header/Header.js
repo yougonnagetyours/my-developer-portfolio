@@ -9,7 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}}>
-        <FiActivity size="3rem" /> <Span>Portfolio</Span>
+        <FiActivity size="3rem" /> <Span>MyPortfolio</Span>
       </a>
     </Div1>
     <Div2>
