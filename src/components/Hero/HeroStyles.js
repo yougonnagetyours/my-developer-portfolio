@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 export const LeftSection = styled.div`
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  margin: 0 auto;
-  
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
