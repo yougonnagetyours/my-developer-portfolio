@@ -19,7 +19,7 @@ const Hero = () => (
         <SectionText style={{}}>
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
         </SectionText>
-        <div style={{marginBottom: '20px', width: '33%'}}>
+        <div style={{marginBottom: '20px', width: '200%'}}>
           <Img src={images.heroImage} />
         </div>
       </div>  
