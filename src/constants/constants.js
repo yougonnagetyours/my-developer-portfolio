@@ -17,8 +17,8 @@ export const projects = [
                  repository on GitHub.`,
     image: '/images/2.png',
     tags: ['React', 'JavaScript', 'Tailwind',],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/yougonnagetyours/kangur-photo-init',
+    visit: 'https://kangurphotography.netlify.app',
     id: 1,
   },
 ];
