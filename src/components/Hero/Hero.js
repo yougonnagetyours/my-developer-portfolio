@@ -26,7 +26,7 @@ const Hero = () => (
           <Img src={images.heroImage} />
         </div>
       </div>  
-      <Button onClick={() => window.location = "https://google.com"}>Learn more</Button>
+      <Button href="#projects">See my projects</Button>
       
     </LeftSection>
   </Section>
