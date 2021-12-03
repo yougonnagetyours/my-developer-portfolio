@@ -16,12 +16,12 @@ const Hero = () => (
         React Developer
       </SectionTitle>
       <div style={{display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch', justifyContent: 'space-between'}}>
-        <div style={{marginBottom: '20px', flexGrow: '2'}}>
+        <div style={{ flexGrow: '2'}}>
           <SectionText>
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
           </SectionText>
         </div>
-        <div style={{marginBottom: '20px', flexGrow: '1'}}>
+        <div style={{ flexGrow: '1'}}>
           <Img src={images.heroImage} />
         </div>
       </div>  
