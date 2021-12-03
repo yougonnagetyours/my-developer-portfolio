@@ -14,12 +14,12 @@ const Hero = () => (
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
         <div style={{marginBottom: '20px', width: '50%'}}>
           <SectionTitle main center>
-            Hello, <br />
+            Hi, <br />
             I am Michał, <br />
             FrontEnd Developer
           </SectionTitle>
           <SectionText>
-            I make apps and websites using React.js and few more technologies. I invite you to view my portfolio ;)
+            hello and welcome to see my portfolio ;)
           </SectionText>
         </div>
         <div style={{marginTop: '20px', marginBottom: '20px', width: '45%', minWidth: '120px', minHeight: '200px'}}>
