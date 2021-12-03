@@ -2,7 +2,7 @@ import React from 'react';
 import { DiReact } from 'react-icons/di';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
