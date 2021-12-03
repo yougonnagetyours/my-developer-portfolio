@@ -10,13 +10,14 @@ import { images } from '../../constants/constants';
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
-        Hello, <br />
-        I am Michał, <br />
-        React Developer
-      </SectionTitle>
+      
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
         <div style={{marginBottom: '20px', width: '55%'}}>
+        <SectionTitle main center>
+            Hello, <br />
+            I am Michał, <br />
+            React Developer
+          </SectionTitle>
           <SectionText>
             There are many variations of passages of Lorem Ipsum available, but the majority           </SectionText>
         </div>
