@@ -12,7 +12,7 @@ const Hero = () => (
     <LeftSection>
       
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
-        <div style={{marginBottom: '20px', width: '55%'}}>
+        <div style={{marginBottom: '20px', width: '45%'}}>
         <SectionTitle main center>
             Hello, <br />
             I am Michał, <br />
@@ -21,7 +21,7 @@ const Hero = () => (
           <SectionText>
             There are many variations of passages of Lorem Ipsum available, but the majority</SectionText>
         </div>
-        <div style={{marginTop: '20px', marginBottom: '20px', width: '40%', minWidth: '120px', minHeight: '200px'}}>
+        <div style={{marginTop: '20px', marginBottom: '20px', width: '50%', minWidth: '120px', minHeight: '200px'}}>
           <Img src={images.heroImage} />
         </div>
       </div>  
