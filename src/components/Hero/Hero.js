@@ -13,13 +13,14 @@ const Hero = () => (
       
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
         <div style={{marginBottom: '20px', width: '45%'}}>
-        <SectionTitle main center>
+          <SectionTitle main center>
             Hello, <br />
             I am Michał, <br />
-            React Developer
+            FrontEnd Developer
           </SectionTitle>
           <SectionText>
-            There are many variations of passages of Lorem Ipsum available, but the majority</SectionText>
+            I make apps and websites using React.js and few more technologies. I invite you to view my portfolio ;)
+          </SectionText>
         </div>
         <div style={{marginTop: '20px', marginBottom: '20px', width: '50%', minWidth: '120px', minHeight: '200px'}}>
           <Img src={images.heroImage} />
