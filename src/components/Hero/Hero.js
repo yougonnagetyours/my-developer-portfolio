@@ -15,13 +15,13 @@ const Hero = () => (
         I am Michał, <br />
         React Developer
       </SectionTitle>
-      <div style={{display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch', justifyContent: 'space-between'}}>
-        <div style={{ flexGrow: '2'}}>
+      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
+        <div style={{marginBottom: '20px', width: '60%'}}>
           <SectionText>
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
           </SectionText>
         </div>
-        <div style={{ flexGrow: '1'}}>
+        <div style={{marginBottom: '20px', width: '35%', minWidth: '120px'}}>
           <Img src={images.heroImage} />
         </div>
       </div>  
