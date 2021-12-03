@@ -23,5 +23,7 @@ export const projects = [
   },
 ];
 
-export const images = {heroImage: '/images/hero-2.jpg'}
+export const images = {
+  heroImage: '/images/hero-profile.jpg',
+}
  

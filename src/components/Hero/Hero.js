@@ -19,7 +19,7 @@ const Hero = () => (
             React Developer
           </SectionTitle>
           <SectionText>
-            There are many variations of passages of Lorem Ipsum available, but the majority           </SectionText>
+            There are many variations of passages of Lorem Ipsum available, but the majority</SectionText>
         </div>
         <div style={{marginTop: '20px', marginBottom: '20px', width: '40%', minWidth: '120px', minHeight: '200px'}}>
           <Img src={images.heroImage} />
