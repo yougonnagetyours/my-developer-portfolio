@@ -9,7 +9,8 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+      Main technology I use is React, but in purpose to e.g styling etc. I use CSS and frameworks - Tailwind CSS, 
+      Styled Components and Bootstrap sometimes. All technology I use are listed below
     </SectionText>
     <List>
       <ListItem>
@@ -17,11 +18,7 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            ReacjJS
-          </ListParagraph>
+          <ListTitle>React</ListTitle>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -29,11 +26,7 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node.js
-          </ListParagraph>
+          <ListTitle>javaScript</ListTitle>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -42,10 +35,6 @@ const Technologies = () =>  (
         </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like figma
-          </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
