@@ -22,10 +22,10 @@ const Footer = () => {
           <Slogan>Make the future more simple</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/            yougonnagetyours">
+          <SocialIcons href="https://github.com/yougonnagetyours">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com/">
+          <SocialIcons href="https://pl.linkedin.com/in/micha%C5%82-potoczny-50189020aUMvosKHUuZDxkQjjh6BAgNEAE&usg=AOvVaw2IjeT-QpR_77LsKE_w4sII">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>
