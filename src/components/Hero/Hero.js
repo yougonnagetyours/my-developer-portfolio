@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { Img } from '../Projects/ProjectsStyles';
@@ -26,8 +27,9 @@ const Hero = () => (
           <Img src={images.heroImage} />
         </div>
       </div>  
-      <Button href="#projects">See my projects</Button>
-      
+      <Link href="#projects">
+        <Button>See my projects</Button>
+      </Link>
     </LeftSection>
   </Section>
 );
