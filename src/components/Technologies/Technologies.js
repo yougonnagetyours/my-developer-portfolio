@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiReact } from 'react-icons/di';
+import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -23,18 +24,19 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <IoLogoJavascript size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>javaScript</ListTitle>
+          <ListTitle>JavaScript</ListTitle>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <IoLogoHtml5 size="3rem" />
+          <IoLogoCss3 size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>{`HTML&CSS`}</ListTitle>
         </ListContainer>
       </ListItem>
     </List>
