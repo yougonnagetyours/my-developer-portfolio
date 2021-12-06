@@ -20,7 +20,7 @@ const Projects = () => (
           </TitleContent>
           <CardInfo className="card-info">{description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <TitleContent><p style={{color: "black"}}>Stack</p></TitleContent>
             <TagList>
               {tags.map((tag, i) => (
                 <Tag key={i}>{tag}</Tag>
