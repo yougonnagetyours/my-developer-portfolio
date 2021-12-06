@@ -10,7 +10,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        All the Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+        I am machanical engineer who became interested in programming during studies. It started from basics of C++ and Java up to change technology stack to frontend programming and making web apps 
       </SectionText>
     </Section>
   );
