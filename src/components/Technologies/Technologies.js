@@ -10,7 +10,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Main technology I use is React, but in purpose to e.g styling etc. I use CSS and frameworks, but more often there is Tailwind CSS, 
+      Main technology I use is React, but in purpose to e.g styling etc. I use CSS, but more often there is Tailwind CSS, 
       Styled Components and sometimes - Bootstrap. All the technologies I use are listed below
     </SectionText>
     <List>
