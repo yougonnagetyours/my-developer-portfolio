@@ -91,7 +91,8 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#5ad2b4;
+color:#000000;
+opacity: 0.5;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #be9f00;
