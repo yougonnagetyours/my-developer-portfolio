@@ -15,7 +15,7 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <picture>
+        <picture style={{color: "#be9f00"}}>
           <DiReact size="3rem" />
         </picture>
         <ListContainer>

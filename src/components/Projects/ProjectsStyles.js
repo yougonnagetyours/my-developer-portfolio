@@ -99,7 +99,7 @@ background: #be9f00;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #16a084;
+  background: #f4d03f;
 
 }
 `;
