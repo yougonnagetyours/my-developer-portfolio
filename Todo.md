@@ -1,5 +1,5 @@
 # Todo list
 
-* section Projecte - Change typography and colors
-* Change main font for roboto e.g
-* Complete About section
+* Check project descriptions
+* Change margins od project descriptions
+* Change technology stack icons
