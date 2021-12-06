@@ -91,16 +91,16 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#000000;
-opacity: 0.5;
+color:#ffffff;
+opacity: .6;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #be9f00;
+background: #007157;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #f4d03f;
-
+  background: #16a084;
+  opacity: .92;
 }
 `;
 

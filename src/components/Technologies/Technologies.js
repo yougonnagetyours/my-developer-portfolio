@@ -23,7 +23,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
+        <picture style={{color: "#be9f00"}}>
           <IoLogoJavascript size="3rem" />
         </picture>
         <ListContainer>
@@ -31,12 +31,19 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
+        <picture style={{color: "#be9f00"}}>
           <IoLogoHtml5 size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>HTML</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
           <IoLogoCss3 size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>{`HTML&CSS`}</ListTitle>
+          <ListTitle>CSS</ListTitle>
         </ListContainer>
       </ListItem>
     </List>
