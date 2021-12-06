@@ -32,6 +32,70 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
+          <IoLogoJavascript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Git</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
+          <IoLogoJavascript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>GitHub</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
+          <IoLogoJavascript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Tailwind CSS</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
+          <IoLogoJavascript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Styled Components</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
+          <IoLogoJavascript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Bootstrap</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
+          <IoLogoJavascript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>SASS</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
+          <IoLogoJavascript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Gatsby</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
+          <IoLogoJavascript size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Wordpress</ListTitle>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
           <IoLogoHtml5 size="3rem" />
         </picture>
         <ListContainer>
