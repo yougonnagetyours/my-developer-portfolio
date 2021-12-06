@@ -94,7 +94,7 @@ export const ExternalLinks = styled.a`
 color:#5ad2b4;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #007157;
+background: #be9f00;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
@@ -109,6 +109,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #5ad2b4;
+color: #be9f00;
 font-size: 1.5rem;
 `
