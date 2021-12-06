@@ -1,6 +1,7 @@
 import React from 'react';
 import { DiReact } from 'react-icons/di';
 import { FaGitAlt } from 'react-icons/fa';
+import { AiFillGithub } from 'react-icons/ai';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListTitle } from './TechnologiesStyles';
@@ -41,7 +42,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="3rem" />
+          <AiFillGithub size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>GitHub</ListTitle>
