@@ -19,7 +19,7 @@ const Technologies = () =>  (
     <List>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <DiReact size="3rem" />
+          <DiReact size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>React</ListTitle>
@@ -27,7 +27,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="3rem" />
+          <IoLogoJavascript size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>JavaScript</ListTitle>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <FaGitAlt size="3rem" />
+          <FaGitAlt size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>Git</ListTitle>
@@ -43,7 +43,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <AiFillGithub size="3rem" />
+          <AiFillGithub size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>GitHub</ListTitle>
@@ -51,7 +51,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <SiTailwindcss size="3rem" />
+          <SiTailwindcss size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>Tailwind CSS</ListTitle>
@@ -59,7 +59,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="3rem" />
+          <IoLogoJavascript size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>Styled Components</ListTitle>
@@ -67,7 +67,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="3rem" />
+          <IoLogoJavascript size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>Bootstrap</ListTitle>
@@ -75,7 +75,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="3rem" />
+          <IoLogoJavascript size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>SASS</ListTitle>
@@ -83,7 +83,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="3rem" />
+          <IoLogoJavascript size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>Gatsby</ListTitle>
@@ -91,7 +91,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="3rem" />
+          <IoLogoJavascript size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>Wordpress</ListTitle>
@@ -99,7 +99,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoHtml5 size="3rem" />
+          <IoLogoHtml5 size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>HTML</ListTitle>
@@ -107,7 +107,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoCss3 size="3rem" />
+          <IoLogoCss3 size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>CSS</ListTitle>
