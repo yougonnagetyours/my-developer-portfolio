@@ -36,8 +36,8 @@ export const Div1 = styled.div`
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+  justify-content: space-around;
+  margin-top: 10px;
   @media ${(props) => props.theme.breakpoints.md} {
     grid-area: 2 / 2 / 3 / 5;
     margin-top: 0;
