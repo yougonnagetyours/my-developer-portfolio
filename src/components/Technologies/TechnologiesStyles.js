@@ -77,7 +77,7 @@ export const ListTitle = styled.h4`
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.02em;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 `
 
