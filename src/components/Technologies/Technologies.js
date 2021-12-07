@@ -2,7 +2,7 @@ import React from 'react';
 import { DiReact, DiSass } from 'react-icons/di';
 import { FaGitAlt } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
-import { SiTailwindcss, SiGatsby } from 'react-icons/si';
+import { SiTailwindcss, SiGatsby, SiWordpress } from 'react-icons/si';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -84,7 +84,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="2rem" />
+          <SiWordpress size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>Wordpress</ListTitle>
