@@ -42,6 +42,9 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
     margin-top: 0;
   }
+  @media ${(props) => props.theme.breakpoints.xsmall} {
+    display: none;
+  }
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
