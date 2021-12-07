@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiReact } from 'react-icons/di';
+import { DiReact, DiSass } from 'react-icons/di';
 import { FaGitAlt } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiTailwindcss } from 'react-icons/si';
@@ -68,7 +68,7 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="2rem" />
+          <DiSass size="2rem" />
         </picture>
         <ListContainer>
           <ListTitle>SASS</ListTitle>
