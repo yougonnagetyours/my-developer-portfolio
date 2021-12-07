@@ -48,7 +48,7 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
-    margin-bottom: 20px;
+    //margin-bottom: 20px;
   }
 `;
 
@@ -121,7 +121,7 @@ export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;
-  padding: 8px;
+padding: 8px;
 &:hover {
     background-color: #212d45;
     transform: scale(1.2);
