@@ -11,15 +11,24 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Travelfolio',
+    description:`Created with Next.js blog is connected with headless content management system - GraphCMS via GraphQL`,
+    image: '/images/travelfolio.png',
+    tags: ['Next.js', 'GraphQL', 'CMS',],
+    source: 'https://github.com/yougonnagetyours/travelfolio',
+    visit: 'https://travelfolio.vercel.app',
+    id: 1,
+  },
+  {
     title: 'Photo Portfolio',
-    description:`Created with React.js, Tailwindto styling with Mobile First Approach and some HeadlessUI to 
+    description:`Created with React.js, Tailwind to styling with Mobile First Approach and some HeadlessUI to 
                  create header menu, menu button etc. This site is Single Page Application. Controlled by Git with remote 
                  repository on GitHub.`,
     image: '/images/2.png',
     tags: ['React', 'JavaScript', 'Tailwind',],
     source: 'https://github.com/yougonnagetyours/kangur-photo-init',
     visit: 'https://kangurphotography.netlify.app',
-    id: 1,
+    id: 2,
   },
 ];
 
