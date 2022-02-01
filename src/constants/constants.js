@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     title: 'Travelfolio',
-    description:`Created with Next.js blog is connected with headless content management system - GraphCMS via GraphQL`,
+    description:`Travelfolio is the blog created with Next.js and it is connected with headless CMS - GraphCMS. All queries are made via GraphQL. People have opporunity to comment each post and they could save their nick and email in the browser local storage.`,
     image: '/images/travelfolio.png',
     tags: ['Next.js', 'GraphQL', 'CMS',],
     source: 'https://github.com/yougonnagetyours/travelfolio',
@@ -22,8 +22,7 @@ export const projects = [
   {
     title: 'Photo Portfolio',
     description:`Created with React.js, Tailwind to styling with Mobile First Approach and some HeadlessUI to 
-                 create header menu, menu button etc. This site is Single Page Application. Controlled by Git with remote 
-                 repository on GitHub.`,
+                 create header menu, menu button etc. This site is Single Page Application. In the future I'm going to implement some CMS system e.g. Strapi.`,
     image: '/images/2.png',
     tags: ['React', 'JavaScript', 'Tailwind',],
     source: 'https://github.com/yougonnagetyours/kangur-photo-init',

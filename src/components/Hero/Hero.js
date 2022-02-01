@@ -11,7 +11,6 @@ import { images } from '../../constants/constants';
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
-      
       <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
         <div style={{marginBottom: '20px', width: '50%'}}>
           <SectionTitle main center>

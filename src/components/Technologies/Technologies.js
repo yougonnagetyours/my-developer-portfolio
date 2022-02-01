@@ -15,7 +15,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       Main technology I use is React, but in purpose to e.g styling etc. I use CSS, but more often there is Tailwind CSS, 
-      Styled Components and sometimes - Material UI. All the technologies I use are listed below
+      Styled Components and sometimes - Material UI. Very often when I use API's or CMS's I used to use official documentacion which is almost always compatible with REST API approach or I make schemas and queries in GraphQL query language.
     </SectionText>
     <List>
       <ListItem>
