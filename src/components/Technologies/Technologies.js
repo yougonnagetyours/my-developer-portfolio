@@ -2,7 +2,7 @@ import React from 'react';
 import { DiReact, DiSass, DiResponsive } from 'react-icons/di';
 import { FaGitAlt } from 'react-icons/fa';
 import { AiFillApi } from 'react-icons/ai';
-import { SiTailwindcss, SiGatsby, SiWordpress } from 'react-icons/si';
+import { SiTailwindcss, SiGatsby, SiWordpress, SiRedux } from 'react-icons/si';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -34,7 +34,18 @@ const Technologies = () =>  (
         </picture>
         <ListContainer>
           <ListTitle>JavaScript</ListTitle>
+          <ListParagraph>TypeScript</ListParagraph>
           <ListParagraph>Object Oriented Programming</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture style={{color: "#be9f00"}}>
+          <SiRedux size="2rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Content Management System</ListTitle>
+          <ListParagraph>Redux</ListParagraph>
+          <ListParagraph>React Context</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
