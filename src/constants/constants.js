@@ -19,16 +19,6 @@ export const projects = [
     visit: 'https://kangur-makes-candles.netlify.app/',
     id: 0,
   },
-  {
-    title: 'Photo Portfolio',
-    description:`Created with React.js, Tailwind to styling with Mobile First Approach and some HeadlessUI to 
-                 create header menu, menu button etc. This site is Single Page Application. In the future I'm going to implement some CMS system e.g. Strapi.`,
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript', 'Tailwind',],
-    source: 'https://github.com/yougonnagetyours/kangur-photo-init',
-    visit: 'https://kangurphotography.netlify.app',
-    id: 2,
-  },
 ];
 
 export const images = {
