@@ -43,9 +43,9 @@ const Technologies = () =>  (
           <SiRedux size="2rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Content Management System</ListTitle>
+          <ListTitle>State Management</ListTitle>
           <ListParagraph>Redux</ListParagraph>
-          <ListParagraph>React Context</ListParagraph>
+          <ListParagraph>Context API</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
