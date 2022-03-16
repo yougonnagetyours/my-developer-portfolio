@@ -10,7 +10,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am frontend developer mainly based in React and JavaScript technology. For now I am freelancer and ethusiast but I am looking for a job to could improve my skills by regular work on web projects. Recently I begin my first group project and this is magnificent experience for me, because for now I used to write apps only by myself using CMS's or specially prepared backends like e.g. Commerce.js. This project will be soon on my portfolio.
+        I have been creating front-end applications since my studies. In free time I like to improve my skills with new technologies and excercise these what I already know.
       </SectionText>
     </Section>
   );
