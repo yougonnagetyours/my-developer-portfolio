@@ -10,7 +10,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I create websites and applications since my studies. In free time I like to improve my skills with new technologies and excercise these what I already know.
+        When I create web applications I really take care about design and consistent logic. In free time I improve my skills and capabilities, especially in front-end development.
       </SectionText>
     </Section>
   );
