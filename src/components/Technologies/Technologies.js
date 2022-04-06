@@ -2,7 +2,7 @@ import React from 'react';
 import { DiReact, DiSass, DiResponsive } from 'react-icons/di';
 import { FaGitAlt } from 'react-icons/fa';
 import { AiFillApi } from 'react-icons/ai';
-import { SiTailwindcss, SiGatsby, SiWordpress, SiRedux } from 'react-icons/si';
+import { SiTailwindcss, SiGatsby, SiWordpress, SiRedux, SiTypescript } from 'react-icons/si';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -14,7 +14,9 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Main technology I use is React and JavaScript. In purpose to styling I used to use CSS, but more often there is one of frameworks: Tailwind CSS, Styled Components and Material UI. Very often when I use API or CMS I used to use official documentacion which is almost always compatible with REST API approach or I make schemas and queries in GraphQL query language.
+      Main technology I use is React and JavaScript. In purpose to styling I used to use CSS, but more often there is one of frameworks: 
+      Tailwind CSS, Styled Components and Material UI. Very often when I use API or CMS I used to use official documentacion which is almost 
+      always compatible with REST API approach or I make schemas and queries in GraphQL query language.
     </SectionText>
     <List>
       <ListItem>
@@ -30,12 +32,11 @@ const Technologies = () =>  (
       </ListItem>
       <ListItem>
         <picture style={{color: "#be9f00"}}>
-          <IoLogoJavascript size="2rem" />
+          <SiTypescript size="2rem" />
         </picture>
         <ListContainer>
-          <ListTitle>JavaScript</ListTitle>
-          <ListParagraph>TypeScript</ListParagraph>
-          <ListParagraph>Object Oriented Programming</ListParagraph>
+          <ListTitle>TypeScript</ListTitle>
+          <ListParagraph>JavaScript</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
